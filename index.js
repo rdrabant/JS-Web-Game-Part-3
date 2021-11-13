@@ -43,7 +43,7 @@ function newInventory(){
     inventory.style.alignItems = 'center'
     inventory.style.justifyContent = 'space-evenly'
     inventory.style.border = '2px solid black'
-    inventory.style.backgroundColor = 'brown'
+    inventory.style.backgroundColor = 'red'
     document.body.append(inventory)
     return inventory
 }
